@@ -347,3 +347,30 @@
   347  git config --list
   348  git init
   349  history > history
+  350  git status
+  351  git add history
+  352  git status
+  353  git add hello
+  354  git status
+  355  ls
+  356  echo "Hello version controlled world" > hello
+  357  ls
+  358  git add hello
+  359  git status
+  360  git commit -m 'This is supposed to add my history and hell to my repositroy'
+  361  git config --list
+  362  git config --global user.email "alomeli@charter.net"
+  363  git config list
+  364  git config --list
+  365  git commit --amend --reset-author
+  366  git status
+  367  git init
+  368  history > history
+  369  git status
+  370  git add history
+  371  git status
+  372  git add hello
+  373  git status
+  374  git init
+  375  git config --list
+  376  history > history
